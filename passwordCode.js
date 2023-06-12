@@ -13,4 +13,3 @@ senha.length = size
 return senha.join(' ');
 
     }
-console.log(caracteres(6));
