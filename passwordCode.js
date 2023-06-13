@@ -10,5 +10,6 @@ let senha = [];
     const numBase = Math.floor(Math.random() * letras.length) 
     senha.push(letras[numBase]);
     }
-     }
-senhaGerada.textContente = "Senha gerada: " + senha.join(' ');
+     
+senhaGerada.textContent = senha.join(' ');
+}
